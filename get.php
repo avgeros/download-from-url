@@ -65,7 +65,7 @@ Powered by <a href="https://xristosavgeros.com" target="_blank" style="color:#03
 </form>
 <?php
     // maximum execution time in seconds
-    // set_time_limit (24 * 60 * 60);
+    set_time_limit (24 * 60 * 60);
     if (!isset($_POST['submit'])) die();
     // folder to save downloaded files to. must end with slash
     $destination_folder = '';
